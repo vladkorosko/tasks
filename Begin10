@@ -1,0 +1,20 @@
+/*Begin10
+Дано два не нульових числа. Знайти суму, різницю, добуток і частку їх квадратів.
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "Введіть два не нульових числа" << endl;
+	int n,k;
+	cin >> n >> k;
+	int sum = n * n + k * k;
+	int ris = n * n - k * k;
+	int dob =  n * n * k * k;
+	float cha = (n * n) / (k * k);
+	cout << sum << endl << ris << endl << dob << endl << cha << endl;
+	return 0;
+}
